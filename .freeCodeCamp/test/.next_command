@@ -1,0 +1,117 @@
+psql -U freecodecamp -d periodic_table
+./reformat.sh
+help
+chmod +x symbol_upper.sh
+./symbol_upper.sh
+./symbol_upper.sh
+./symbol_upper.sh
+help
+./zeroes.sh
+./zeroes.sh
+./zeroes.sh
+./zeroes.sh
+./zeroes.sh
+./zeroes.sh
+chmod +x insert_test_elements.sh
+./insert_test_elements.sh
+mkdir periodic_table
+cd periodic_table
+git init
+git branch
+ls --color=auto -a
+git branch
+git branch main
+git checkout -b main
+git branch
+git branch
+touch element.sh
+git status
+git add .
+git commit -m "Initial commit"
+chmod +x element.sh
+git status
+git diff
+git commit -m "chore: give main script exec permissions"
+git diff
+git restore --staged .
+git diff
+git commit -m "chore: add bash shebang"
+git diff
+git add .
+git status
+git status
+git checkout -b feat/parse-int
+git status
+git diff
+git add .
+git commit -m "refactor: swap guard clause with first case check if arg is an integer"
+./element.sh 1
+./element.sh 2
+./element.sh 2
+git diff
+git add .
+git restore --staged .
+./element.sh 1
+./element.sh 1
+git add .
+git commit -m "feat: implement search by atomic number error checking might suck though"
+git status
+git diff
+git add .
+git commit -m "chore: make print fn error message more descriptive"
+./element.sh 12
+./element.sh Th
+./element.sh Th
+./element.sh Th
+./element.sh Th
+./element.sh Th
+./element.sh Th
+./element.sh H
+./element.sh H
+git status
+git diff
+git add .
+git commit -m "feat: implement search by symbol"
+./element.sh Haha
+git status
+git diff
+git add .
+git commit -m "feat: implement search by name"
+./element.sh Hydro
+./element.sh Fluorine
+./element.sh Fluor
+./element.sh Fl
+git status
+git diff
+git add . -p
+git commit -m "refactor: make not found message a single fn"
+./element.sh Doug
+git status
+./element.sh moTium
+./element.sh moTium
+./element.sh Doug
+./element.sh Doug
+./element.sh moTium
+./element.sh moTium
+./element.sh moTium
+git status
+git diff
+__vsc_prompt_cmd_original
+git add .
+git commit -m "fix: fix the error message for input that isn't found in the db Also fix the pattern for matching just in case"
+git status
+git checkout main
+git merge feat/parse-int
+cd ..
+pg_dump -U freecodecamp periodic_table > periodic_table.sql
+cd periodic_table
+git status
+cd ..
+git status
+git add .
+git status
+git add .
+git status
+git add .freeCodeCamp/test/.cwd
+git add .freeCodeCamp/test/.next_command
+git status
